@@ -4,9 +4,9 @@ config :dynamo,
   reload_modules: false
 
 config :server,
-  port: 17999,
-  acceptors: 100,
-  max_connections: 10000
+  port: 8000,
+  acceptors: 200,
+  max_connections: 30000
 
 # config :ssl,
 #  port: 8889,
